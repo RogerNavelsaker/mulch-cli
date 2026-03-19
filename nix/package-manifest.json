@@ -9,7 +9,9 @@
     "name": "mulch",
     "upstreamName": "mulch",
     "entrypoint": "src/cli.ts",
-    "aliases": []
+    "aliases": [
+      "ml"
+    ]
   },
   "dist": {
     "url": "https://registry.npmjs.org/@os-eco/mulch-cli/-/mulch-cli-0.6.3.tgz",
