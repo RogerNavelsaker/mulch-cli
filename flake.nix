@@ -38,6 +38,7 @@
           package = pkgs.callPackage ./nix/package.nix { };
         in {
           default = package;
+          mulch = package;
           ml = package.ml;
         });
 
