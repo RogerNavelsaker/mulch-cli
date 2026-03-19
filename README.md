@@ -6,15 +6,16 @@ Nix packaging for `@os-eco/mulch-cli` using Bun and `bun2nix`.
 
 - Upstream package: `@os-eco/mulch-cli`
 - Pinned version: `0.6.3`
+- Description: structured expertise files that accumulate over time, live in git, and work with any agent
 - Installed binary: `mulch`
 - Upstream executable invoked by Bun: `mulch`
 
-## What this repo does
+## What This Repo Does
 
 - Uses `bun.lock` and generated `bun.nix` as the dependency lock surface for Nix
-- Builds an internal Bun application package with `bun2nix`
+- Builds the upstream package as an internal Bun application with `bun2nix`
 - Exposes only the canonical binary name `mulch`
-- Provides a GitHub Actions workflow that can sync the pinned npm version
+- Provides a manifest sync script for updating the pinned npm metadata
 
 ## Files
 
@@ -23,14 +24,7 @@ Nix packaging for `@os-eco/mulch-cli` using Bun and `bun2nix`.
 - `nix/package-manifest.json`: pinned package metadata and exposed binary name
 - `scripts/sync-from-npm.ts`: updates pinned npm metadata without changing the canonical output binary
 
-## Usage
-
-```bash
-nix build
-./result/bin/mulch --help
-```
-
 ## Notes
 
-- Short aliases such as `ml` are intentionally not installed by this package.
-- If you want a short alias, create it in your shell configuration or Flox environment.
+- The default `out` output installs the longform binary name `mulch`.
+- The shortform name `ml` is available as a separate Nix output, not in the default `out` output.
