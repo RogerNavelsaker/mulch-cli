@@ -1,4 +1,4 @@
-# mulch-cli
+# nixpkg-mulch
 
 Nix packaging for `@os-eco/mulch-cli` using Bun and `bun2nix`.
 
