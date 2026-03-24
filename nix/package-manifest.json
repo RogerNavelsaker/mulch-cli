@@ -3,7 +3,8 @@
   "package": {
     "repo": "mulch-cli",
     "npmName": "@os-eco/mulch-cli",
-    "version": "0.6.3"
+    "version": "0.6.3",
+    "packageRevision": 1
   },
   "binary": {
     "name": "mulch",
