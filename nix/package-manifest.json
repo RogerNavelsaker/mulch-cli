@@ -1,0 +1,26 @@
+{
+  "stubbed": false,
+  "package": {
+    "repo": "mulch-cli",
+    "npmName": "@os-eco/mulch-cli",
+    "version": "0.6.3",
+    "packageRevision": 1
+  },
+  "binary": {
+    "name": "mulch",
+    "upstreamName": "mulch",
+    "entrypoint": "src/cli.ts",
+    "aliases": [
+      "ml"
+    ]
+  },
+  "dist": {
+    "url": "https://registry.npmjs.org/@os-eco/mulch-cli/-/mulch-cli-0.6.3.tgz",
+    "hash": "sha512-Rd8Li0UmUfPR3n+bfN2yGuY/kDU1kGxpvHXy6qQuwEvaiwmNU7ZrsLlGH1jJccFKfIFQV++5ANhGCelllzxAVw=="
+  },
+  "meta": {
+    "description": "Let your agents grow 🌱 — structured expertise files that accumulate over time, live in git, work with any agent",
+    "homepage": "https://github.com/jayminwest/mulch#readme",
+    "licenseSpdx": "MIT"
+  }
+}
