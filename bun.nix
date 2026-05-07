@@ -13,9 +13,9 @@
   ...
 }:
 {
-  "@os-eco/mulch-cli@0.7.0" = fetchurl {
-    url = "https://registry.npmjs.org/@os-eco/mulch-cli/-/mulch-cli-0.7.0.tgz";
-    hash = "sha512-GdlX4mZcOFOsrgx5dZSbtz3x9qmi3LHPqpOU2Wjb1imaG2G8ufes3aqY7GgWtrq+uvfLSJSW2yIi9CO8mZsnVg==";
+  "@os-eco/mulch-cli@0.8.0" = fetchurl {
+    url = "https://registry.npmjs.org/@os-eco/mulch-cli/-/mulch-cli-0.8.0.tgz";
+    hash = "sha512-S6Jub9cipg5v6L7WjjKsqSPohUUkRR8Xv3BcybMZ3N3J1wocIL4t8I7LSXilibjsxNUdFagf4ZNsiss30a9J1A==";
   };
   "@types/bun@1.3.12" = fetchurl {
     url = "https://registry.npmjs.org/@types/bun/-/bun-1.3.12.tgz";
