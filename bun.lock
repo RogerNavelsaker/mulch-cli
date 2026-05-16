@@ -5,7 +5,7 @@
     "": {
       "name": "@rona/nix-mulch-cli",
       "dependencies": {
-        "@os-eco/mulch-cli": "0.10.0",
+        "@os-eco/mulch-cli": "0.10.1",
       },
       "devDependencies": {
         "@types/bun": "^1.3.10",
@@ -14,7 +14,7 @@
     },
   },
   "packages": {
-    "@os-eco/mulch-cli": ["@os-eco/mulch-cli@0.10.0", "", { "dependencies": { "ajv": "^8.17.1", "chalk": "^5.6.2", "commander": "^14.0.3", "js-yaml": "^4.1.1" }, "bin": { "mulch": "src/cli.ts", "ml": "src/cli.ts" } }, "sha512-uOY5ue5gaGsXQgWPCxehLeOaxsZRbnSiMbHgyhZvLwr+QOZLKuovz6fneAMLONtw4Mb4Q1EqAIItRlXGFXTkoA=="],
+    "@os-eco/mulch-cli": ["@os-eco/mulch-cli@0.10.1", "", { "dependencies": { "ajv": "^8.17.1", "chalk": "^5.6.2", "commander": "^14.0.3", "js-yaml": "^4.1.1" }, "peerDependencies": { "@earendil-works/pi-coding-agent": "^0.74.0", "typebox": "^1.1.0" }, "optionalPeers": ["@earendil-works/pi-coding-agent", "typebox"], "bin": { "mulch": "src/cli.ts", "ml": "src/cli.ts" } }, "sha512-eBOFL2aw3an9LX3rn51BBxRZrwqkC5o/Fd606IJ4t7ohul1gJqgF0yyHEgkO3/etFjpb4vW4SNjzl2v54RHrtA=="],
 
     "@types/bun": ["@types/bun@1.3.12", "", { "dependencies": { "bun-types": "1.3.12" } }, "sha512-DBv81elK+/VSwXHDlnH3Qduw+KxkTIWi7TXkAeh24zpi5l0B2kUg9Ga3tb4nJaPcOFswflgi/yAvMVBPrxMB+A=="],
 

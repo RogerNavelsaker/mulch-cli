@@ -3,7 +3,7 @@
   "package": {
     "repo": "mulch-cli",
     "npmName": "@os-eco/mulch-cli",
-    "version": "0.10.0",
+    "version": "0.10.1",
     "packageRevision": 1
   },
   "binary": {
@@ -15,8 +15,8 @@
     ]
   },
   "dist": {
-    "url": "https://registry.npmjs.org/@os-eco/mulch-cli/-/mulch-cli-0.10.0.tgz",
-    "hash": "sha512-uOY5ue5gaGsXQgWPCxehLeOaxsZRbnSiMbHgyhZvLwr+QOZLKuovz6fneAMLONtw4Mb4Q1EqAIItRlXGFXTkoA=="
+    "url": "https://registry.npmjs.org/@os-eco/mulch-cli/-/mulch-cli-0.10.1.tgz",
+    "hash": "sha512-eBOFL2aw3an9LX3rn51BBxRZrwqkC5o/Fd606IJ4t7ohul1gJqgF0yyHEgkO3/etFjpb4vW4SNjzl2v54RHrtA=="
   },
   "meta": {
     "description": "Let your agents grow 🌱 — structured expertise files that accumulate over time, live in git, work with any agent",
